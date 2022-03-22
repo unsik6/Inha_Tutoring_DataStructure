@@ -1,7 +1,10 @@
 # Inha_Tutoring_DataStructure
 
-This repository is just the list of assignment I prepare for my tutee.
-In this repo, I will have store the solution of the assignment below.
+This repository is just the list of tasks I prepare for my tutees.
+
+In this repo, I will have store the solution of the tasks below. The tasks I give to tutees basically aim to practice to implement of the data structure by solving problem.
+
+I hope it will be helpful for students attending Inha University or students who are just starting to study data structure.
 
 |Week|DataStructure|Assginment|
 |:---:|:---:|:---:|
