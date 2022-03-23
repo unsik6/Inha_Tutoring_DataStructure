@@ -5,6 +5,11 @@
       "ProjectGuid": "0c2c1314-0dc4-4aea-a930-2f90c52216f4",
       "DisplayName": "INHA_Tutoring_DataStructure",
       "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "기타 파일",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 1
