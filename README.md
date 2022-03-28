@@ -10,8 +10,9 @@ I hope it will be helpful for students attending Inha University or students who
 |:---:|:---:|:---:|
 |1|Array||
 |2|Linked-List|BOJ_1158, BOJ_2346|
-|4|Stack|BOJ_10828, BOJ_1935|
-|5|Queue|BOJ_18258, BOJ_1021|
+|3|Stack|BOJ_10828, BOJ_1935|
+|4|Queue|BOJ_18258, BOJ_1021|
+|5|Vector<br/>List<br/>Sequence<br/>|Self-Made(KOR) Vector Problem|
 |6|Tree|BOJ_11203, BOJ_13116|
 |7|Tree Traversal|BOJ_1991|
 |8|Mid-term||
