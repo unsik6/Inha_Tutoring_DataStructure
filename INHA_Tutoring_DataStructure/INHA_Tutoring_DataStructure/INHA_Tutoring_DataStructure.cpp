@@ -1,34 +1,86 @@
 ﻿#include <iostream>
 using namespace std;
 
+int N;
 
-// 해야되는 작업 1번: 공백 찍기, 2번 별찍기
-// 
-// b = 각 경우에 공백이 찍히는 횟수
-//     b--;
-// s = 각 경우에 별이 찍히는 횟수
-//     s++;
-// b + s = n
-// 
-// s = n - b
-// 우리한테 필요한거: b, n
-
-void starByBlanck(int _n, int _b)
+// star( )가 실행 중일 때, ( )번 코드라인부터 감소하기 시작해야 한다.
+void star(int k, bool increasing)
 {
-	if (_b < 0) return;
+	if (k < 1)
+		return;
+	// 증가한다.
+	if (increasing)
+	{
+		star(k - 1, increasing);
+		for (int i = 0; i < k; i++)
+		{
+			cout << '*';
+		}
+		cout << '\n';
 
-	for (int i = 0; i < _b; i++) cout << ' ';
-	for (int i = 0; i < _n - _b; i++) cout << '*';
-	cout << endl;
-
-	starByBlanck(_n, _b - 1);
+		if(k == N)
+			star(k - 1, false);
+	}
+	else
+	{
+		for (int i = 0; i < k; i++)
+		{
+			cout << '*';
+		}
+		cout << '\n';
+		star(k - 1, increasing);
+	}
 }
-
 
 int main()
 {
-	int N;
 	cin >> N;
 
-	starByBlanck(N, N-1);
+	star(N, true);
 }
+
+
+/*
+int main()
+{
+int N;
+cin >> N;		// N = 2
+
+42~55
+
+star(2);void star(2, true)
+		{
+			if(2<1)
+			if(true)
+			star(1);		void star(1, true)
+							{
+								if(1<1)
+								if(true)
+								star(0);     >> void star(0, true)
+												{
+													if(0<1)
+													return;
+												}
+								for(int i = 0; i <1; i++){cout << '*';}
+								cout << endl;
+								if(1 == 2)
+							}
+			for(int i =0; i< 2; i++) {cout << '*';}
+			cout << endl;
+
+			if(2 == 2)
+			star(1, false);		void star(1, false)
+								{
+									if(1<1)
+									if(false) => else
+										for(int i = 0; i < 1; i++) {cout << '*';}
+										cout << endl;
+										star(0, false);		void star(0, false)
+																{
+																		if(0<1)
+																		return;
+																}
+								}
+		}
+}
+*/
