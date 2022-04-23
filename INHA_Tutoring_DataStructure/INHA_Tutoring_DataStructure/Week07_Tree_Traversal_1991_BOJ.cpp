@@ -64,6 +64,7 @@ void postOrder(int _root, int _rootCharIdx)
 	cout << curChar;
 }
 
+
 int main()
 {
 	int N;
