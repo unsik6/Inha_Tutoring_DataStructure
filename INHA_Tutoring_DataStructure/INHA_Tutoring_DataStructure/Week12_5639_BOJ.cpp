@@ -137,6 +137,26 @@ public:
 	
 };
 
+struct A
+{
+	int a;
+	int b;
+	string str;
+	int c;
+};
+
+class C
+{
+public:
+	int a;
+	int b;
+	string str;
+	int c;
+	
+};
+
+#include <time.h>
+
 int main()
 {
 	BST bst;
