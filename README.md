@@ -144,13 +144,27 @@
 
 <br/><br/>
 
-## 주차 
-### 문제: []() ([샘플 코드]())
-&nbsp;&nbsp; 
+## 13주차 Graph
+&nbsp;&nbsp; 실제 그래프(Graph) 실습 문제는 수업 중에 배우는 간선 리스트(Edge List), 인접 리스트(Adjacency List) 또는 인접 행렬(Adjacency Matrix)를 구현하는 문제입니다. 그런데 이 문제를 따로 찾을 수가 없어요! 그래서 이론 진도 상 DFS와 BFS까지 진행되었었기 때문에 DFS와 BFS 문제를 풀면서 익히게 했습니다.  (인접 행렬 표현방법의 경우 [제가 자료구조 수업 때 구현했던 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week13_Adjacency_Matrix.cpp) 참고 바랍니다.)
+
+### 문제: [1260 DFS와 BFS](https://www.acmicpc.net/problem/1260) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week13_1260_BOJ.cpp))
+&nbsp;&nbsp; BFS와 DFS 모두 구현하는 문제입니다. BFS와 DFS는 둘다 recursive하게 구현할 수 있고, iterative하게 구현할 수 있습니다. 제 기억 상으로는 자료구조에서는 recursive하게 구현하는 것을 배우므로 여러분은 굳이 iterative하게 구현하실 필요는 없습니다.
 
 <br/>
 
-### 문제: []() ([샘플 코드]())
-&nbsp;&nbsp; 
+### 문제: [2667 단지 번호 붙이기](https://www.acmicpc.net/problem/2667) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week13_2667_BOJ.cpp))
+&nbsp;&nbsp; BFS와 DFS 둘 중 하나로 풀 수 있습니다. 제가 올려 드린 소스코드는 BFS로 푼 경우입니다. DFS로도 푸시기 바랍니다.
+
+<br/><br/>
+
+## 14주차 Graph Traversal
+&nbsp;&nbsp; DFS와 BFS 문제만 출제 되는 것으로 알고 있습니다.
+### 문제: [2606 바이러스](https://www.acmicpc.net/problem/2606) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week14_2606_BOJ.cpp))
+&nbsp;&nbsp; 매우 유명한 유형의 그래프 순회문제입니다. DFS와 BFS, 둘다로 한번씩 풀어보세요. 그래프 표현방법은 편하신대로 진행하시면 됩니다.
+
+<br/>
+
+### 문제: [7576 토마토](https://www.acmicpc.net/problem/7576) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week14_7576_BOJ.cpp))
+&nbsp;&nbsp; 위의 '바이러스' 문제와 유사한 유형의 그래프 문제로 매우 유명한 시리즈 문제입니다. 그중 가장 쉬운 2차원 토마토 문제입니다. 위 문제와 푸는 방법이 크게 다르지 않습니다. 다만, DFS와 BFS 중 하나만 이용해서 풀 수 있습니다.
 
 <br/><br/>
