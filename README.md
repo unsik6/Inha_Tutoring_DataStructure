@@ -29,7 +29,7 @@
 ---
 ## 1주차 Array
 ### 문제: [1158 요세푸스 문제 (실버4)](https://www.acmicpc.net/problem/1158) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week01_Array_1158_BOJ.cpp))
-&nbsp;&nbsp;특정 수 만큼 배열을 이동하며 요소를 방문하는 문제입니다. 추후에 접하게 될 큐(Queue)에서 순환형 배열을 접하게 되는데 이에 대한 예습 차원으로 선택하였습니다. 인덱스(Index) 관리의 기본적인 방식인 mod 연산을 사용하는 것을 연습합니다.<br/>
+&nbsp;&nbsp;특정 수 만큼 배열 안에서 이동하며 요소를 방문하는 문제입니다. 추후에 접하게 될 큐(Queue)에서 순환형 배열을 접하게 되는데 이에 대한 예습 차원으로 선택하였습니다. 인덱스(Index) 관리의 기본적인 방식인 mod 연산을 사용하는 것을 연습합니다.<br/>
 
 
 <br/><br/>
@@ -59,7 +59,7 @@
 ## 4주차 Queue
 &nbsp;&nbsp; 
 ### 문제: [18258 큐2 (실버4)](https://www.acmicpc.net/problem/18258) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week04_Queue_18258_BOJ.cpp))
-&nbsp;&nbsp; 실제 출제되는 실습 문제와 동일한 유형의 문제입니다. 실제로 스택을 구현해보고 제시된 쿼리를 수행하면 됩니다. 제시된 쿼리는 수업 중 배우는 큐 ADT의 Method들과 거의 동일합니다. 샘플 코드는 순환형 배열로 구현되어 있습니다. 그리고 이 문제는 C 입력과 C++ 입력의 tie를 풀어줘야 됩니다.
+&nbsp;&nbsp; 실제 출제되는 실습 문제와 동일한 유형의 문제입니다. 실제로 큐을 구현해보고 제시된 쿼리를 수행하면 됩니다. 제시된 쿼리는 수업 중 배우는 큐 ADT의 Method들과 거의 동일합니다. 샘플 코드는 순환형 배열로 구현되어 있습니다. 그리고 이 문제는 C 입력과 C++ 입력의 tie를 풀어줘야 됩니다.
 
 <br/>
 
@@ -82,7 +82,7 @@
 <br/><br/>
 
 ## 6주차 Tree
-&nbsp;&nbsp;tree 문제는 풀다 보니 binary tree 문제만 있다는 것을 깨달았습니다. 트리는 사이클이 없는 그래프라는 개념을 가지고 있습니다. 이에 따라 일반적인 트리 문제는 그래프 문제로 다뤄져서 일반 트리를 구현하면서 풀 수 있는 문제는 찾기가 어렵네요. 그래서 [제가 자료구조 수업 때 구현했던 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week06_winter_ds_treeProblemSolution.cpp)를 보시면서 구현 참고 바랍니다.
+&nbsp;&nbsp;Tree 문제는 풀다 보니 준비한 문제가 binary tree 문제만 있다는 것을 깨달았습니다. 트리는 사이클이 없는 그래프라는 개념을 가지고 있습니다. 이에 따라 일반적인 트리 문제는 그래프 문제로 다뤄져서 일반 트리를 구현해야 풀 수 있는 문제는 찾기가 어렵네요. 그래서 [제가 자료구조 수업 때 구현했던 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week06_winter_ds_treeProblemSolution.cpp)를 보시면서 구현 참고 바랍니다.
 
 ### 문제: [11203 Numbers On a Tree (실버5)](https://www.acmicpc.net/problem/11203) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week06_Binary_Tree_11203_BOJ.cpp))
 &nbsp;&nbsp; 공교롭게도 영어 문제입니다. 그렇게까지 어려운 난이도는 아니고 포화 이진 트리의 속성을 이용하는 문제입니다. 실제 Tree로 구현하는 경우 시간초과가 나타나는 것으로 알고 있습니다.  <b>많이 어려운 경우, [KTH 공식 솔루션](https://challenge.csc.kth.se/2014/solutions.pdf)의 A번째 문제를 보고 구현해보세요!</b>
@@ -98,12 +98,12 @@
 ## 7주차 Tree Traversal
 &nbsp;&nbsp; 이 시기에는 중간고사를 대비해야 하는 주라 한 문제만 진행했었습니다.
 ### 문제: [1991 트리 순회 (실버1)](https://www.acmicpc.net/problem/1991) ([샘플 코드](https://www.acmicpc.net/problem/1991))
-&nbsp;&nbsp; 이진 트리가 주어지면 전위 순회, 중위 순회, 후위 순회의 결과를 출력합니다. 샘플 코드에서는 알파벳의 수 만큼 배열을 만들어서 트리로 구현했을 때 저장하게 될 인덱스를 부여했습니다. 실제로 입력 받은 이진 트리를 배열로 구현하면 너무 많은 용량을 차지하게 될 거라고 생각했기 때문입니다. 근데 또 튜터링 진행하면서 튜티 분들 코드 보니까 그렇지도 않습니다.
+&nbsp;&nbsp; 이진 트리가 주어지면 전위 순회, 중위 순회, 후위 순회의 결과를 출력합니다. 샘플 코드에서는 알파벳의 수 만큼 배열을 만들어서 트리로 구현했을 때 해당하는 알파벳이 저장될 인덱스를 부여했습니다. 예를 들면 입력된 이진트리를 실제 배열로 구현했을 때 A가 위치하는 인덱스가 1이라면 만든 배열의 'A'에 해당하는 요소에 들어 있는 값이 1이 됩니다. 실제로 입력 받은 이진 트리를 배열로 구현하면 너무 많은 용량을 차지하게 될 거라고 생각했기 때문에 앞서 말씀드린 방식을 고려했습니다. 근데 또 튜터링 진행하면서 튜티 분들 코드 보니까 그렇지도 않습니다.
 
 <br/><br/>
 
 ## 9 10주차 Priority queue Heap
-&nbsp;&nbsp; 1927 문제는 힙을 위한 문제이고, 2750은 정렬문제로 힙 정렬, 선택 정렬, 삽입 정렬을 연습할 수 있습니다. 선택 정렬과 삽입 정렬의 경우에도 실습 문제로 나타나니 꼭 연습하세요.
+&nbsp;&nbsp; 1927 문제는 힙을 위한 문제이고, 2750과 2751은 정렬문제로 힙 정렬, 선택 정렬, 삽입 정렬을 연습할 수 있습니다. 선택 정렬과 삽입 정렬의 경우에도 실습 문제로 나타나니 꼭 연습하세요.
 
 ### 문제: [1927 최소 힙 (실버2)](https://www.acmicpc.net/problem/1927) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week08_1927_BOJ.cpp))
 &nbsp;&nbsp; 대놓고 최소 힙을 구현하라는 문제입니다.
@@ -116,7 +116,7 @@
 <br/>
 
 ### 문제: [2751 수 정렬하기2 (실버5)](https://www.acmicpc.net/problem/2751) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week08_2751_BOJ.cpp))
-&nbsp;&nbsp; 위 2751 문제의 시리즈 문제입니다. 여기서는 O(nlogn) 수행 시간의 정렬 알고리즘을 연습합니다. 힙 정렬이 여기에 속합니다. 실제로 힙을 구현해서 푸시면 됩니다. 샘플 코드에는 힙 정렬, 합병 정렬 순으로 구성되어 있습니다.
+&nbsp;&nbsp; 위 2750 문제의 시리즈 문제입니다. 여기서는 O(nlogn) 수행 시간의 정렬 알고리즘을 연습합니다. 힙 정렬이 여기에 속합니다. 실제로 힙을 구현해서 푸시면 됩니다. 샘플 코드에는 힙 정렬, 합병 정렬 순으로 구성되어 있습니다.
 
 <br/><br/>
 
@@ -134,7 +134,7 @@
 <br/><br/>
 
 ## 12주차 Hash table
-&nbsp;&nbsp; 해시 테이블(Hash table)의 경우에는 실제 실습 문제에 해시 함수가 주어져 있습니다. 그리고 아래의 문제들에는 없지만  해시 충돌 처리를 하는 문제도 있습니다. 아래 문제들은 아주 기본적인 해싱입니다.
+&nbsp;&nbsp; 해시 테이블(Hash table)의 경우에는 실제 실습 문제에 해시 함수가 주어져 있습니다. 그리고 아래의 문제들에는 없지만  해시 충돌 처리를 하는 문제도 실습 문제로 출제됩니다. 아래 문제들은 아주 기본적인 해싱입니다.
 
 ### 문제: [15829 Hashing (브론즈2)](https://www.acmicpc.net/problem/15829) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week12_15829_BOJ.cpp))
 &nbsp;&nbsp; 주어진 prime number를 통해 Hash value를 구하는 문제입니다. 조금 다른 점이 있다면 자릿수의 거듭제곱을 곱해준다는 점이 있습니다. 이 문제에서는 Hash value만 구하지만 우리가 배우는 Hash table은 이 Hash value를 인덱스로 하여 실제 데이터들을 분류하여 저장하는 것까지 포함됩니다. 이 문제는 해싱을 하는 기본적인 개념을 익히기도 좋고, 앞으로 문제풀이를 하시면서 "어떤 자료형을 선택할지" 고민하는 것과 modular 연산의 법칙을 익힐 수 있어서 선택했습니다.  만약 문제를 푸시다가 계속해서 WA(wrong answer)가 나오면 이 [링크](https://sskl660.tistory.com/75)를 먼저 읽어보시길 바랍니다.
@@ -151,7 +151,7 @@
 <br/><br/>
 
 ## 13주차 Graph
-&nbsp;&nbsp; 실제 그래프(Graph) 실습 문제는 수업 중에 배우는 간선 리스트(Edge List), 인접 리스트(Adjacency List) 또는 인접 행렬(Adjacency Matrix)를 구현하는 문제입니다. 그런데 이 문제를 따로 찾을 수가 없어요! 그래서 이론 진도 상 DFS와 BFS까지 진행되었었기 때문에 DFS와 BFS 문제를 풀면서 익히게 했습니다.  (제가 자료구조 수업과 알고리즘 수업 때 구현했던 코드를 참고하시길 바랍니다. 인접 리스트의 경우 다른 알고리즘 구현을 위해 작성한 것에서 불필요한 부분을 다 잘라내서 참고하실 만한 것이 없으실 거에요... [인접 행렬](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week13_Adjacency_Matrix_sample.cpp), [인접 리스트](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week13_Adjacency_List_sample.cpp) )
+&nbsp;&nbsp; 실제 그래프(Graph) 실습 문제는 수업 중에 배우는 간선 리스트(Edge List), 인접 리스트(Adjacency List) 또는 인접 행렬(Adjacency Matrix)를 구현하는 문제입니다. 그런데 이 문제를 따로 찾을 수가 없어요! 그래서 이론 진도 상 DFS와 BFS까지 진행되었었기 때문에 DFS와 BFS 문제를 풀면서 익히게 했습니다.  (그래프 표현방법에 대한 코드는 제가 자료구조 수업과 알고리즘 수업 때 구현했던 코드를 참고하시길 바랍니다. 인접 리스트의 경우 다른 알고리즘 구현을 위해 작성한 것에서 불필요한 부분을 다 잘라내서 참고하실 만한 것이 없으실 거에요... [인접 행렬](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week13_Adjacency_Matrix_sample.cpp), [인접 리스트](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week13_Adjacency_List_sample.cpp) )
 
 ### 문제: [1260 DFS와 BFS (실버2)](https://www.acmicpc.net/problem/1260) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week13_1260_BOJ.cpp))
 &nbsp;&nbsp; BFS와 DFS 모두 구현하는 문제입니다. BFS와 DFS는 둘다 recursive하게 구현할 수 있고, iterative하게 구현할 수 있습니다. 제 기억 상으로는 자료구조에서는 recursive하게 구현하는 것을 배우므로 여러분은 굳이 iterative하게 구현하실 필요는 없습니다.
