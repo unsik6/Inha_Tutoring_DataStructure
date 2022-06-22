@@ -9,11 +9,11 @@
 |2|[Linked List](#2주차-Linked-List)|BOJ_1158, BOJ_2346|
 |3|[Stack](#3주차-Stack)|BOJ_10828, BOJ_1935|
 |4|[Queue](#4주차-Queue)|BOJ_18258, BOJ_1021|
-|5|[Vector<br/>List<br/>Sequence<br/>](#5주차-Vector-List-Sequence)|자체문제(KOR) Vector Problem<br/>자체문제(KOR) Sequence Sample|
+|5|[Vector List Sequence](#5주차-Vector-List-Sequence)|자체문제(KOR) Vector Problem<br/>자체문제(KOR) Sequence Sample|
 |6|[Tree](#6주차-Tree)|BOJ_11203, BOJ_13116|
 |7|[Tree Traversal](#7주차-Tree-Traversal)|BOJ_1991<br/>중간고사 대비 질의|
 |8|Mid-term||
-|9<br/>10|[Priority Queue<br/>Heap](#9~10주차-Priority_Queue-Heap)|BOJ_1927, BOJ_2750, BOJ_2751|
+|9<br/>10|[Priority_Queue Heap](#9~10주차-Priority_Queue-Heap)|BOJ_1927, BOJ_2750, BOJ_2751|
 |11|Binary Search Tree|BOJ_5639, BOJ_18240|
 |12|Hash Table|BOJ_15829, BOJ_5525|
 |13|Graph|BOJ_1260, BOJ_2667|
