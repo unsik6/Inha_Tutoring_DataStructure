@@ -6,7 +6,7 @@
 |Week|DataStructure|Assginment|
 |:---:|:---:|:---:|
 |1|[Array](#1주차-Array)|BOJ_1158|
-|2|[Linked List](#2주차-Linked List)|BOJ_1158, BOJ_2346|
+|2|[Linked List](#2주차-Linked-List)|BOJ_1158, BOJ_2346|
 |3|[Stack](#3주차-Stack)|BOJ_10828, BOJ_1935|
 |4|Queue|BOJ_18258, BOJ_1021|
 |5|Vector<br/>List<br/>Sequence<br/>|자체문제(KOR) Vector Problem<br/>자체문제(KOR) Sequence Sample|
