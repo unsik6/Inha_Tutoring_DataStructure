@@ -13,7 +13,7 @@
 |6|[Tree](#6주차-Tree)|BOJ_11203, BOJ_13116|
 |7|[Tree Traversal](#7주차-Tree-Traversal)|BOJ_1991<br/>중간고사 대비 질의|
 |8|Mid-term||
-|9<br/>10|[Priority Queue<br/>Heap](#9주차-Priority_Queue-Heap)|BOJ_1927, BOJ_2750, BOJ_2751|
+|9<br/>10|[Priority Queue<br/>Heap](#9~10주차-Priority_Queue-Heap)|BOJ_1927, BOJ_2750, BOJ_2751|
 |11|Binary Search Tree|BOJ_5639, BOJ_18240|
 |12|Hash Table|BOJ_15829, BOJ_5525|
 |13|Graph|BOJ_1260, BOJ_2667|
@@ -96,7 +96,7 @@
 
 <br/><br/>
 
-## 9주차 Priority Queue_Heap
+## 9~10주차 Priority_Queue Heap
 &nbsp;&nbsp; 1927 문제는 힙을 위한 문제이고, 2750은 정렬문제로 힙 정렬, 선택 정렬, 삽입 정렬을 연습할 수 있습니다. 선택 정렬과 삽입 정렬의 경우에도 실습 문제로 나타나니 꼭 연습하세요.
 
 ### 문제: [1927 최소 힙](https://www.acmicpc.net/problem/1927) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week08_1927_BOJ.cpp))
