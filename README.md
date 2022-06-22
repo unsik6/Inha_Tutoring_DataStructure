@@ -14,8 +14,8 @@
 |7|[Tree Traversal](#7주차-Tree-Traversal)|BOJ_1991<br/>중간고사 대비 질의|
 |8|Mid-term||
 |9<br/>10|[Priority queue Heap](#9-10주차-Priority-queue-Heap)|BOJ_1927, BOJ_2750, BOJ_2751|
-|11|[Binary Search Tree](#11-Binary Search Tree)|BOJ_5639, BOJ_18240|
-|12|[Hash table](#12주차-Hash table)|BOJ_15829, BOJ_5525|
+|11|[Binary Search Tree](#11주차-Binary-Search-Tree)|BOJ_5639, BOJ_18240|
+|12|[Hash table](#12주차-Hash-table)|BOJ_15829, BOJ_5525|
 |13|Graph|BOJ_1260, BOJ_2667|
 |14|Graph Traversal|BOJ_2606, BOJ_7576|
 |14|Final||
