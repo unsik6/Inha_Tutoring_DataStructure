@@ -89,7 +89,7 @@
 
 <br/>
 
-### 문제: [13116 30번 문제 (실버4)](https://www.acmicpc.net/problem/13116) ([샘플 코드]())
+### 문제: [13116 30번 문제 (실버4)](https://www.acmicpc.net/problem/13116) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week06_Binary_Tree_13116_BOJ.cpp))
 &nbsp;&nbsp; 위 문제와 마찬가지로 포화 이진 트리의 속성을 이용한 문제입니다. 크게 어렵진 않습니다.
 
 <br/><br/>
@@ -97,7 +97,7 @@
 
 ## 7주차 Tree Traversal
 &nbsp;&nbsp; 이 시기에는 중간고사를 대비해야 하는 주라 한 문제만 진행했었습니다.
-### 문제: [1991 트리 순회 (실버1)]() ([샘플 코드](https://www.acmicpc.net/problem/1991))
+### 문제: [1991 트리 순회 (실버1)](https://www.acmicpc.net/problem/1991) ([샘플 코드](https://www.acmicpc.net/problem/1991))
 &nbsp;&nbsp; 이진 트리가 주어지면 전위 순회, 중위 순회, 후위 순회의 결과를 출력합니다. 샘플 코드에서는 알파벳의 수 만큼 배열을 만들어서 트리로 구현했을 때 저장하게 될 인덱스를 부여했습니다. 실제로 입력 받은 이진 트리를 배열로 구현하면 너무 많은 용량을 차지하게 될 거라고 생각했기 때문입니다. 근데 또 튜터링 진행하면서 튜티 분들 코드 보니까 그렇지도 않습니다.
 
 <br/><br/>
@@ -151,7 +151,7 @@
 <br/><br/>
 
 ## 13주차 Graph
-&nbsp;&nbsp; 실제 그래프(Graph) 실습 문제는 수업 중에 배우는 간선 리스트(Edge List), 인접 리스트(Adjacency List) 또는 인접 행렬(Adjacency Matrix)를 구현하는 문제입니다. 그런데 이 문제를 따로 찾을 수가 없어요! 그래서 이론 진도 상 DFS와 BFS까지 진행되었었기 때문에 DFS와 BFS 문제를 풀면서 익히게 했습니다.  (제가 자료구조 수업과 알고리즘 수업 때 구현했던 코드를 참고하시길 바랍니다. 인접 리스트의 경우 다른 알고리즘 구현을 위해 작성한 것에서 불필요한 부분을 다 잘라내서 참고하실 만한 것이 없으실 거에요... [인접 행렬](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week13_Adjacency_Matrix.cpp), [인접 리스트](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week13_Adjacency_List_sample.cpp) )
+&nbsp;&nbsp; 실제 그래프(Graph) 실습 문제는 수업 중에 배우는 간선 리스트(Edge List), 인접 리스트(Adjacency List) 또는 인접 행렬(Adjacency Matrix)를 구현하는 문제입니다. 그런데 이 문제를 따로 찾을 수가 없어요! 그래서 이론 진도 상 DFS와 BFS까지 진행되었었기 때문에 DFS와 BFS 문제를 풀면서 익히게 했습니다.  (제가 자료구조 수업과 알고리즘 수업 때 구현했던 코드를 참고하시길 바랍니다. 인접 리스트의 경우 다른 알고리즘 구현을 위해 작성한 것에서 불필요한 부분을 다 잘라내서 참고하실 만한 것이 없으실 거에요... [인접 행렬](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week13_Adjacency_Matrix_sample.cpp), [인접 리스트](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week13_Adjacency_List_sample.cpp) )
 
 ### 문제: [1260 DFS와 BFS (실버2)](https://www.acmicpc.net/problem/1260) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week13_1260_BOJ.cpp))
 &nbsp;&nbsp; BFS와 DFS 모두 구현하는 문제입니다. BFS와 DFS는 둘다 recursive하게 구현할 수 있고, iterative하게 구현할 수 있습니다. 제 기억 상으로는 자료구조에서는 recursive하게 구현하는 것을 배우므로 여러분은 굳이 iterative하게 구현하실 필요는 없습니다.
