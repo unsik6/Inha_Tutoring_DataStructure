@@ -42,7 +42,7 @@
 <br/>
 
 ### 문제: [2346 풍선 터뜨리기 (실버3)](https://www.acmicpc.net/problem/2346) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week02_Doubly_Linked_List_2346_BOJ.cpp))
-&nbsp;&nbsp;이 문제는 앞선 '요세푸스 문제'의 상위 호환이라고 생각하시면 됩니다. 다만, 이중 연결 리스트를 구현하여 풀 경우 <b>메모리 초과</b>가 나타날 수 있습니다. 연습하는 데에 중점을 두도록 합니다. [(실제 문제의 정답 코드)](https://github.com/unsik6/BOJ_by_Cpp/blob/main/BaekJoon_CPlusPlus/BaekJoon_CPlusPlus/2346_BOJ.cpp)
+&nbsp;&nbsp;이 문제는 앞선 '요세푸스 문제'의 상위 호환이라고 생각하시면 됩니다. 샘플 코드는 이중 연결 리스트로 구현되어 있습니다. 다만, 이중 연결 리스트를 구현하여 풀 경우 <b>메모리 초과</b>가 나타날 수 있습니다. 연습하는 데에 중점을 두도록 합니다. [(실제 문제의 정답 코드)](https://github.com/unsik6/BOJ_by_Cpp/blob/main/BaekJoon_CPlusPlus/BaekJoon_CPlusPlus/2346_BOJ.cpp)
 
 <br/><br/>
 
