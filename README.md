@@ -53,7 +53,7 @@
 <br/>
 
 ### 문제: [1935 후위 표기식2 (실버3)](https://www.acmicpc.net/problem/1935) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week03_Stack_1935_BOJ.cpp))
-&nbsp;&nbsp; 많은 학생들이 어려워하는 후위 표기식입니다. 후위 표기식을 입력 받으면 그 결과를 도출하는 것입니다. 실제로 해보면 크게 어렵지 않습니다. <b>실제 실습 문제에서는 중위 표기식을 후위 표기식으로 바꾸는 문제도 제시될 수 있습니다. 이 때, 괄호를 활용해야 하는 경우도 있습니다. 해당 문제는 [백준 1918 후위 표기식](https://www.acmicpc.net/problem/1918) 문제로 연습하시길 바랍니다.</b>
+&nbsp;&nbsp; 많은 학생들이 어려워하는 후위 표기식입니다. 후위 표기식을 입력 받으면 그 결과를 도출하는 것입니다. 실제로 해보면 크게 어렵지 않습니다. <b>실제 실습 문제에서는 중위 표기식을 후위 표기식으로 바꾸는 문제도 제시될 수 있습니다. 이 때, 괄호를 활용해야 하는 경우도 있습니다. 해당 문제는 [백준 1918 후위 표기식](https://www.acmicpc.net/problem/1918) 문제로 연습하시길 바랍니다.([1918 풀이 코드](https://github.com/unsik6/BOJ_by_Cpp/blob/main/BaekJoon_CPlusPlus/BaekJoon_CPlusPlus/1918_BOJ.cpp))</b>
 
 <br/><br/>
 ## 4주차 Queue
