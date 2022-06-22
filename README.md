@@ -36,12 +36,12 @@
 ## 2주차 Linked List
 &nbsp;&nbsp;자료구조 수업에서 배우는 연결 리스트(Linked List)는 2가지로, 단일 연결 리스트(Singly Linked-List)와 이중 연결 리스트(Doubly Linked-List)입니다. 둘 다 실습 수업에 포함되므로 아래의 문제를 통해 연습합니다. 두 문제 모두 두 가지의 연결 리스트를 이용하여 해결할 수 있으므로 두 문제에 대해 모두 연습하는 것을 추천합니다.
 
-### 문제: [1158 요세푸스 문제 (실버4)](https://www.acmicpc.net/problem/1158) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week02_Singly%20Linked-List_1158.cpp))
+### 문제: [1158 요세푸스 문제 (실버4)](https://www.acmicpc.net/problem/1158) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week01_Array_1158_BOJ.cpp))
 
 &nbsp;&nbsp;1주차에도 포함되었던 이 문제는 일반적으로 큐나 배열을 이용해서 해결합니다. 그러나 리스트 또한 선형 자료구조이므로 사용해도 무관합니다. 샘플 코드는 단일 연결 리스트를 구현하여 푼 예제입니다.
 <br/>
 
-### 문제: [2346 풍선 터뜨리기 (실버3)](https://www.acmicpc.net/problem/2346) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week02_Singly%20Linked-List_1158.cpp))
+### 문제: [2346 풍선 터뜨리기 (실버3)](https://www.acmicpc.net/problem/2346) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week02_Doubly_Linked_List_2346_BOJ.cpp))
 &nbsp;&nbsp;이 문제는 앞선 '요세푸스 문제'의 상위 호환이라고 생각하시면 됩니다. 다만, 이중 연결 리스트를 구현하여 풀 경우 <b>메모리 초과</b>가 나타날 수 있습니다. 연습하는 데에 중점을 두도록 합니다. [(실제 문제의 정답 코드)](https://github.com/unsik6/BOJ_by_Cpp/blob/main/BaekJoon_CPlusPlus/BaekJoon_CPlusPlus/2346_BOJ.cpp)
 
 <br/><br/>
@@ -52,7 +52,7 @@
 
 <br/>
 
-### 문제: [1935 후위 표기식2 (실버3)](https://www.acmicpc.net/problem/1935) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week03_Stack1935_BOJ.cpp))
+### 문제: [1935 후위 표기식2 (실버3)](https://www.acmicpc.net/problem/1935) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week03_Stack_1935_BOJ.cpp))
 &nbsp;&nbsp; 많은 학생들이 어려워하는 후위 표기식입니다. 후위 표기식을 입력 받으면 그 결과를 도출하는 것입니다. 실제로 해보면 크게 어렵지 않습니다. <b>실제 실습 문제에서는 중위 표기식을 후위 표기식으로 바꾸는 문제도 제시될 수 있습니다. 이 때, 괄호를 활용해야 하는 경우도 있습니다. 해당 문제는 [백준 1918 후위 표기식](https://www.acmicpc.net/problem/1918) 문제로 연습하시길 바랍니다.</b>
 
 <br/><br/>
@@ -151,7 +151,7 @@
 <br/><br/>
 
 ## 13주차 Graph
-&nbsp;&nbsp; 실제 그래프(Graph) 실습 문제는 수업 중에 배우는 간선 리스트(Edge List), 인접 리스트(Adjacency List) 또는 인접 행렬(Adjacency Matrix)를 구현하는 문제입니다. 그런데 이 문제를 따로 찾을 수가 없어요! 그래서 이론 진도 상 DFS와 BFS까지 진행되었었기 때문에 DFS와 BFS 문제를 풀면서 익히게 했습니다.  (인접 행렬 표현방법의 경우 [제가 자료구조 수업 때 구현했던 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week13_Adjacency_Matrix.cpp) 참고 바랍니다.)
+&nbsp;&nbsp; 실제 그래프(Graph) 실습 문제는 수업 중에 배우는 간선 리스트(Edge List), 인접 리스트(Adjacency List) 또는 인접 행렬(Adjacency Matrix)를 구현하는 문제입니다. 그런데 이 문제를 따로 찾을 수가 없어요! 그래서 이론 진도 상 DFS와 BFS까지 진행되었었기 때문에 DFS와 BFS 문제를 풀면서 익히게 했습니다.  (제가 자료구조 수업과 알고리즘 수업 때 구현했던 코드를 참고하시길 바랍니다. 인접 리스트의 경우 다른 알고리즘 구현을 위해 작성한 것에서 불필요한 부분을 다 잘라내서 참고하실 만한 것이 없으실 거에요... [인접 행렬](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week13_Adjacency_Matrix.cpp), [인접 리스트](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week13_Adjacency_List_sample.cpp) )
 
 ### 문제: [1260 DFS와 BFS (실버2)](https://www.acmicpc.net/problem/1260) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week13_1260_BOJ.cpp))
 &nbsp;&nbsp; BFS와 DFS 모두 구현하는 문제입니다. BFS와 DFS는 둘다 recursive하게 구현할 수 있고, iterative하게 구현할 수 있습니다. 제 기억 상으로는 자료구조에서는 recursive하게 구현하는 것을 배우므로 여러분은 굳이 iterative하게 구현하실 필요는 없습니다.
