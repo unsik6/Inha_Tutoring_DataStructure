@@ -9,12 +9,11 @@
 |2|[Linked List](#2주차-Linked-List)|BOJ_1158, BOJ_2346|
 |3|[Stack](#3주차-Stack)|BOJ_10828, BOJ_1935|
 |4|[Queue](#4주차-Queue)|BOJ_18258, BOJ_1021|
-|5|[Vector<br/>List<br/>Sequence<br/>](#5주차-Vector,-List,-Sequence)|자체문제(KOR) Vector Problem<br/>자체문제(KOR) Sequence Sample|
+|5|[Vector<br/>List<br/>Sequence<br/>](#5주차-Vector-List-Sequence)|자체문제(KOR) Vector Problem<br/>자체문제(KOR) Sequence Sample|
 |6|[Tree](#6주차-Tree)|BOJ_11203, BOJ_13116|
 |7|[Tree Traversal](#7주차-Tree-Traversal)|BOJ_1991<br/>중간고사 대비 질의|
 |8|Mid-term||
-|9|[Priority Queue](#9주차-Priority-Queue,-Heap)|BOJ_1927, BOJ_2750, BOJ_2751|
-|10|Heap|9주차 Priority Queue과 동일|
+|9<br/>10|[Priority Queue<br/>Heap](#9주차-Priority_Queue-Heap)|BOJ_1927, BOJ_2750, BOJ_2751|
 |11|Binary Search Tree|BOJ_5639, BOJ_18240|
 |12|Hash Table|BOJ_15829, BOJ_5525|
 |13|Graph|BOJ_1260, BOJ_2667|
@@ -64,7 +63,7 @@
 
 <br/><br/>
 
-## 5주차  Vector, List, Sequence
+## 5주차  Vector List Sequence
 &nbsp;&nbsp;이 주제의 문제들은 따로 찾을 수가 없어서 별도로 만들었습니다. 문제에 오류가 있을 수 있습니다만,, 학부생이 급하게 만든 것이니 이해바랍니다 ㅠㅠ Vector 문제만 있습니다. List는 2주차에서 진행했으므로 만들지 않았고, 시간이 없어서 Sequence는 샘플 코드만 첨부하였습니다.
 ### 문제: [자체 Vector 문제](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/vector.pdf) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week05_Vector.cpp))
 &nbsp;&nbsp; 실제 실습 문제와 유사한 유형으로 구성하였습니다. 오류가 있을 수도 있습니다.
@@ -97,7 +96,7 @@
 
 <br/><br/>
 
-## 9주차 Priority Queue, Heap
+## 9주차 Priority Queue_Heap
 &nbsp;&nbsp; 1927 문제는 힙을 위한 문제이고, 2750은 정렬문제로 힙 정렬, 선택 정렬, 삽입 정렬을 연습할 수 있습니다. 선택 정렬과 삽입 정렬의 경우에도 실습 문제로 나타나니 꼭 연습하세요.
 
 ### 문제: [1927 최소 힙](https://www.acmicpc.net/problem/1927) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week08_1927_BOJ.cpp))
