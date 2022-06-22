@@ -28,7 +28,7 @@
 
 ---
 ## 1주차 Array
-### 문제: [1158 요세푸스 문제 (실버4)](https://www.acmicpc.net/problem/1158)([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week01_Array_1158_BOJ.cpp))
+### 문제: [1158 요세푸스 문제 (실버4)](https://www.acmicpc.net/problem/1158) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week01_Array_1158_BOJ.cpp))
 &nbsp;&nbsp;특정 수 만큼 배열을 이동하며 요소를 방문하는 문제입니다. 추후에 접하게 될 큐(Queue)에서 순환형 배열을 접하게 되는데 이에 대한 예습 차원으로 선택하였습니다. 인덱스(Index) 관리의 기본적인 방식인 mod 연산을 사용하는 것을 연습합니다.<br/>
 
 
@@ -36,7 +36,7 @@
 ## 2주차 Linked List
 &nbsp;&nbsp;자료구조 수업에서 배우는 연결 리스트(Linked List)는 2가지로, 단일 연결 리스트(Singly Linked-List)와 이중 연결 리스트(Doubly Linked-List)입니다. 둘 다 실습 수업에 포함되므로 아래의 문제를 통해 연습합니다. 두 문제 모두 두 가지의 연결 리스트를 이용하여 해결할 수 있으므로 두 문제에 대해 모두 연습하는 것을 추천합니다.
 
-### 문제: [1158 요세푸스 문제 (실버4)](https://www.acmicpc.net/problem/1158) ( [샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week02_Singly%20Linked-List_1158.cpp) )
+### 문제: [1158 요세푸스 문제 (실버4)](https://www.acmicpc.net/problem/1158) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week02_Singly%20Linked-List_1158.cpp))
 
 &nbsp;&nbsp;1주차에도 포함되었던 이 문제는 일반적으로 큐나 배열을 이용해서 해결합니다. 그러나 리스트 또한 선형 자료구조이므로 사용해도 무관합니다. 샘플 코드는 단일 연결 리스트를 구현하여 푼 예제입니다.
 <br/>
@@ -52,18 +52,18 @@
 
 <br/>
 
-### 문제: [1935 후위 표기식2 (실버3)](https://www.acmicpc.net/problem/1935)([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week03_Stack1935_BOJ.cpp)
+### 문제: [1935 후위 표기식2 (실버3)](https://www.acmicpc.net/problem/1935) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week03_Stack1935_BOJ.cpp))
 &nbsp;&nbsp; 많은 학생들이 어려워하는 후위 표기식입니다. 후위 표기식을 입력 받으면 그 결과를 도출하는 것입니다. 실제로 해보면 크게 어렵지 않습니다. <b>실제 실습 문제에서는 중위 표기식을 후위 표기식으로 바꾸는 문제도 제시될 수 있습니다. 이 때, 괄호를 활용해야 하는 경우도 있습니다. 해당 문제는 [백준 1918 후위 표기식](https://www.acmicpc.net/problem/1918) 문제로 연습하시길 바랍니다.</b>
 
 <br/><br/>
 ## 4주차 Queue
 &nbsp;&nbsp; 
-### 문제: [18258 큐2 (실버4)](https://www.acmicpc.net/problem/18258)([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week04_Queue_18258_BOJ.cpp))
+### 문제: [18258 큐2 (실버4)](https://www.acmicpc.net/problem/18258) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week04_Queue_18258_BOJ.cpp))
 &nbsp;&nbsp; 실제 출제되는 실습 문제와 동일한 유형의 문제입니다. 실제로 스택을 구현해보고 제시된 쿼리를 수행하면 됩니다. 제시된 쿼리는 수업 중 배우는 큐 ADT의 Method들과 거의 동일합니다. 샘플 코드는 순환형 배열로 구현되어 있습니다. 그리고 이 문제는 C 입력과 C++ 입력의 tie를 풀어줘야 됩니다.
 
 <br/>
 
-### 문제: [1021 회전하는 큐 (실버4)](https://www.acmicpc.net/problem/1021)([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week04_Queue_1021_BOJ.cpp))
+### 문제: [1021 회전하는 큐 (실버4)](https://www.acmicpc.net/problem/1021) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week04_Queue_1021_BOJ.cpp))
 &nbsp;&nbsp; 특별한 문제는 아닙니다. 위 18258를 풀 수 있다면 쉽게 풀 수 있는 문제입니다. 샘플 코드는 큐를 활용한 문제는 아닙니다. 다만, 문제에서 제시된 3가지 연산 모두 큐의 연산을 이용하여 구현할 수 있습니다.
 
 
