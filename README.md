@@ -13,9 +13,9 @@
 |6|[Tree](#6주차-Tree)|BOJ_11203, BOJ_13116|
 |7|[Tree Traversal](#7주차-Tree-Traversal)|BOJ_1991<br/>중간고사 대비 질의|
 |8|Mid-term||
-|9<br/>10|[Priority Queue Heap](#9-10주차-Priority-Queue-Heap)|BOJ_1927, BOJ_2750, BOJ_2751|
-|11|Binary Search Tree|BOJ_5639, BOJ_18240|
-|12|Hash Table|BOJ_15829, BOJ_5525|
+|9<br/>10|[Priority queue Heap](#9-10주차-Priority-queue-Heap)|BOJ_1927, BOJ_2750, BOJ_2751|
+|11|[Binary Search Tree](#11-Binary Search Tree)|BOJ_5639, BOJ_18240|
+|12|[Hash table](#12주차-Hash table)|BOJ_15829, BOJ_5525|
 |13|Graph|BOJ_1260, BOJ_2667|
 |14|Graph Traversal|BOJ_2606, BOJ_7576|
 |14|Final||
@@ -96,7 +96,7 @@
 
 <br/><br/>
 
-## 9 10주차 Priority Queue Heap
+## 9 10주차 Priority queue Heap
 &nbsp;&nbsp; 1927 문제는 힙을 위한 문제이고, 2750은 정렬문제로 힙 정렬, 선택 정렬, 삽입 정렬을 연습할 수 있습니다. 선택 정렬과 삽입 정렬의 경우에도 실습 문제로 나타나니 꼭 연습하세요.
 
 ### 문제: [1927 최소 힙](https://www.acmicpc.net/problem/1927) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week08_1927_BOJ.cpp))
@@ -114,14 +114,33 @@
 
 <br/><br/>
 
-## 주차 
-### 문제: []() ([샘플 코드]())
-&nbsp;&nbsp; 
+## 11주차 Binary Search Tree
+&nbsp;&nbsp;이진 탐색 트리(Binary Search Tree, BST)는 자료구조 시간에 배우는 AVL tree 외에도 알고리즘 시간에 Red-Black tree를 배우게 되므로 꼭 구현해보시길 바랍니다.
+
+### 문제: [5639 이진 검색 트리](https://www.acmicpc.net/problem/5639) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week11_5639_BOJ.cpp))
+&nbsp;&nbsp; BST의 노드 프로퍼티를 잘 생각해보면 BST를 구현하는 것만으로 매우 쉽게 풀 수 있는 문제입니다.
 
 <br/>
 
-### 문제: []() ([샘플 코드]())
-&nbsp;&nbsp; 
+### 문제: [18240 이진 탐색 트리 복원하기](https://www.acmicpc.net/problem/18240) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week11_18240_BOJ.cpp))
+&nbsp;&nbsp; <b>스페셜 저지</b> 문제입니다. 스페셜 저지란 정답이 1개 이상인 경우로 문제에서 제시된 조건만 충족하면 됩니다. 선택사항의 문제라고 생각하시면 되고 풀어보시되 정 안 되면 코드를 보시길 바랍니다. 저 같은 경우에도 트리의 모든 노드에 넘버링까지는 완성했으나 메모리 부족이 떠서 시간 관계상 인터넷에서 참고한 코드로 작성하였습니다.
+
+<br/><br/>
+
+## 12주차 Hash table
+&nbsp;&nbsp; 해시 테이블(Hash table)의 경우에는 실제 실습 문제에 해시 함수가 주어져 있습니다. 그리고 아래의 문제들에는 없지만  해시 충돌 처리를 하는 문제도 있습니다. 아래 문제들은 아주 기본적인 해싱입니다.
+
+### 문제: [15829 ](https://www.acmicpc.net/problem/15829) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week12_15829_BOJ.cpp))
+&nbsp;&nbsp; 주어진 prime number를 통해 Hash value를 구하는 문제입니다. 조금 다른 점이 있다면 자릿수의 거듭제곱을 곱해준다는 점이 있습니다. 이 문제에서는 Hash value만 구하지만 우리가 배우는 Hash table은 이 Hash value를 인덱스로 하여 실제 데이터들을 분류하여 저장하는 것까지 포함됩니다. 이 문제는 해싱을 하는 기본적인 개념을 익히기도 좋고, 앞으로 문제풀이를 하시면서 "어떤 자료형을 선택할지" 고민하는 것과 modular 연산의 법칙을 익힐 수 있어서 선택했습니다.  만약 문제를 푸시다가 계속해서 WA(wrong answer)가 나오면 이 [링크](https://sskl660.tistory.com/75)를 먼저 읽어보시길 바랍니다.
+
+<br/>
+
+### 문제: [5525 IOIOI](https://www.acmicpc.net/problem/5525) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week12_5525_BOJ.cpp))
+&nbsp;&nbsp; <b>이 문제는 안 풀어도 됩니다. 설명도 읽지 않으셔도 됩니다.</b> 문자열이 일치하는지 탐색하는 알고리즘 중  Rabin-Karp 알고리즘이 있습니다. 이 알고리즘은 어떤 문자열 S에서 내가 찾고자 하는 문자열 P와 일치하는 부분을 찾는 문자열 매칭 알고리즘 중 하나로 해싱을 기반으로 하고 있습니다.  문자열 S에서 |P| 길이를 갖는 모든 부분 문자열을 정해진 해시 함수를 통해 계산한 해시값을 배열(hashArr)에 저장합니다. 그리고 P에 대한 해시값(h_p)도 계산합니다. hashArr를 탐색하면서 h_p와 일치하는 경우, 해당 해시값이 포함된 인덱스부터 시작하는 S의 부분 문자열과 P를 Naive하게 비교하여 계산합니다. (비교적 자세한 내용은 샘플 코드 확인)
+  이 알고리즘은 실제로 P이 S에 나타날 확률이 적음을 이용했습니다. 즉, P와 S의 해시값이 다를 확률이 매우 높기 때문에 모든 부분문자열에 대해 하나하나 비교할 필요가 없습니다. 해시값이 같은 경우에만 비교하면 됩니다. 해시값이 같을 때 직접 비교해서 맞는지 확인하는 이유는 해시값이 같더라도 우리가 수업 중에 배우는 해시 충돌의 가능성이 있기 때문입니다. 
+<br/>&nbsp;&nbsp; Rabin-Karp로 이 문제를 풀 경우 50점만 맞고 나머지 50점(인풋이 더 큰 경우)에는 시간초과가 나타납니다. 여러분에게 주어진 과제는 50점 + 시간초과를 띄우는 것입니다.
+
+추가: 물론 이 문제는 입력 문자열이 매우 쉬운 구조를 가지고 있기 때문에 입력 문자열의 모든 문자를 단 한번만 확인해서 풀 수 있습니다. 더 빠르게 풀 수도 있구요. 저는 바빠서 그냥 대충 풀었습니다.([문제풀이 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week12_5525_BOJ_Solving.cpp))
 
 <br/><br/>
 
