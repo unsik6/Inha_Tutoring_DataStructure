@@ -30,7 +30,7 @@
     <ClCompile Include="Week03_Stack_10828_BOJ.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Week03_Stack1935_BOJ.cpp">
+    <ClCompile Include="Week03_Stack_1935_BOJ.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Week04_Queue_1021_BOJ.cpp">
@@ -69,7 +69,10 @@
     <ClCompile Include="Week12_18240_BOJ.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Week13_Adjacency_Matrix.cpp">
+    <ClCompile Include="Week13_Adjacency_Matrix_sample.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Week13_Adjacency_List_sample.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
