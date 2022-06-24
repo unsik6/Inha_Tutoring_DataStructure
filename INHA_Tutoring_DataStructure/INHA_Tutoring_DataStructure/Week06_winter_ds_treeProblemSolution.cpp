@@ -107,27 +107,4 @@ public:
 
 int main()
 {
-	Tree tree(1);
-	int N;
-	cin >> N;
-	while (N > 0)
-	{
-		string order;
-		int param1{ 0 }, param2{ 0 };
-		cin >> order >> param1;
-		if (order == "insert") cin >> param2;
-		if (order == "insert")
-		{
-			tree.insert(param1, param2);
-		}
-		else if (order == "printChild")
-		{
-			tree.printChild(param1);
-		}
-		else if (order == "printDepth")
-		{
-			tree.printDepth(param1);
-		}
-		N--;
-	}
 }
