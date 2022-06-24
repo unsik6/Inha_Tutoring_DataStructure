@@ -131,30 +131,6 @@ public:
 
 int main()
 {
-	DList<int> list;
 	
-	cout << "current isEmpty:" << list.isEmpty() << endl;
-	cout << "current Size : " << list.size() << endl << endl;
-	list.insertAtRank(0, 2);
-	list.printAll();
-	cout << "current Size : " << list.size() << endl << endl;
-	list.insertAtRank(0, 0);
-	list.printAll();
-	cout << "current Size : " << list.size() << endl << endl;
-	list.insertAtRank(1, 1);
-	list.printAll();
-	cout << "current Size : " << list.size() << endl << endl;
-	list.replaceAtRank(0, 7);
-	list.printAll();
-	cout << "current Size : " << list.size() << endl << endl;
-	list.replaceAtRank(1, 8);
-	list.printAll();
-	cout << "current Size : " << list.size() << endl << endl;
-	list.replaceAtRank(2, 9);
-	list.printAll();
-	cout << "current Size : " << list.size() << endl << endl;
-	cout << "current isEmpty:" << list.isEmpty() << endl;
-	
-
 	return 0;
 }
