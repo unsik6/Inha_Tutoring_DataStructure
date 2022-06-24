@@ -125,7 +125,7 @@ public:
 				}
 				temp = temp->getNext();
 			}
-			// �ش��ϴ� ��尡 ����.
+			// ÇØ´çÇÏ´Â ³ëµå°¡ ¾øÀ½.
 		}
 	}
 };
@@ -391,27 +391,5 @@ public:
 
 int main()
 {
-	Graph graph;
-	int N, M, K;
-	cin >> N >> M >> K;
-	for (int i = 0; i < N; i++)
-	{
-		int input;
-		cin >> input;
-		graph.insertVertex(input);
-	}
-	for (int i = 0; i < M; i++)
-	{
-		int src, dst;
-		string data;
-		cin >> src >> dst >> data;
-		graph.insertEdge(src, dst, data);
-	}
-	cout << graph.getVertexSize() << ' ' << graph.getEdgeSize() << endl;
-	for (int i = 0; i < K; i++)
-	{
-		int vertex;
-		cin >> vertex;
-		graph.eraseVertex(vertex);
-	}
+	
 }
