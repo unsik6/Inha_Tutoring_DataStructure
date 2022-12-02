@@ -157,7 +157,7 @@
 
 <br/>
 
-### 문제: [2667 단지 번호 붙이기 (실버1)](https://www.acmicpc.net/problem/2667) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week13_2667_BOJ.cpp))
+### 문제: [2667 단지 번호 붙이기 (실버1)](https://www.acmicpc.net/problem/2667) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/Week13_2667_BOJ.cpp))
 &nbsp;&nbsp; BFS와 DFS 둘 중 하나로 풀 수 있습니다. 제가 올려 드린 소스코드는 BFS로 푼 경우입니다. DFS로도 푸시기 바랍니다.
 
 <br/><br/>
