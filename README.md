@@ -35,7 +35,7 @@
 ## 2주차 Linked List
 &nbsp;&nbsp;자료구조 수업에서 배우는 연결 리스트(Linked List)는 2가지로, 단일 연결 리스트(Singly Linked-List)와 이중 연결 리스트(Doubly Linked-List)입니다. 둘 다 실습 수업에 포함되므로 아래의 문제를 통해 연습합니다. 두 문제 모두 두 가지의 연결 리스트를 이용하여 해결할 수 있으므로 두 문제에 대해 모두 연습하는 것을 추천합니다.
 
-### 문제: [1158 요세푸스 문제 (실버4)](https://www.acmicpc.net/problem/1158) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/Week01_Array_1158_BOJ.cpp))
+### 문제: [1158 요세푸스 문제 (실버4)](https://www.acmicpc.net/problem/1158) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/Week02_Singly%20Linked-List_1158.cpp))
 
 &nbsp;&nbsp;1주차에도 포함되었던 이 문제는 일반적으로 큐나 배열을 이용해서 해결합니다. 그러나 리스트 또한 선형 자료구조이므로 사용해도 무관합니다. 샘플 코드는 단일 연결 리스트를 구현하여 푼 예제입니다.
 <br/>
