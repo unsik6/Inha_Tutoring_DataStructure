@@ -72,7 +72,7 @@
 ## 5주차 Vector List Sequence
 &nbsp;&nbsp;이 주제의 문제들은 따로 찾을 수가 없어서 별도로 만들었습니다. 문제에 오류가 있을 수 있습니다만,, 학부생이 급하게 만든 것이니 이해바랍니다 ㅠㅠ Vector 문제만 있습니다. List는 2주차에서 진행했으므로 만들지 않았고, 시간이 없어서 Sequence는 샘플 코드만 첨부하였습니다.
 ### 문제: [자체 Vector 문제](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/Week05_Vector_problem.pdf) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/Week05_Vector.cpp))
-&nbsp;&nbsp; 실제 실습 문제와 유사한 유형으로 구성하였습니다. 오류가 있을 수도 있습니다.
+&nbsp;&nbsp; 실제 실습 문제와 유사한 유형으로 구성하였습니다. 오류가 있을 수도 있습니다. 또한, 일반적으로 Vector는 size down을 하지 않습니다. 가능한 다양한 연습을 하셨으면 해서 size down도 포함하고 있으며 환형배열로 구현토록 하고 있습니다.
 
 <br/>
 
