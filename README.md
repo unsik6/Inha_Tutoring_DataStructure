@@ -153,7 +153,7 @@
 ## 13주차 Graph
 &nbsp;&nbsp; 실제 그래프(Graph) 실습 문제는 수업 중에 배우는 간선 리스트(Edge List), 인접 리스트(Adjacency List) 또는 인접 행렬(Adjacency Matrix)를 구현하는 문제입니다. 그런데 이 문제를 따로 찾을 수가 없어요! 그래서 이론 진도 상 DFS와 BFS까지 진행되었었기 때문에 DFS와 BFS 문제를 풀면서 익히게 했습니다.  (그래프 표현방법에 대한 코드는 제가 자료구조 수업과 알고리즘 수업 때 구현했던 코드를 참고하시길 바랍니다. 인접 리스트의 경우 다른 알고리즘 구현을 위해 작성한 것에서 불필요한 부분을 다 잘라내서 참고하실 만한 것이 없으실 거에요... [인접 행렬](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/Week13_Adjacency_Matrix_sample.cpp), [인접 리스트](https://github.com/unsik6/Algorithms_Codes/tree/main/02_Data_Structures/04_Graph/01_Representations/01_AdjacencyList) )
 
-### 문제: [1260 DFS와 BFS (실버2)](https://www.acmicpc.net/problem/1260) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/INHA_Tutoring_DataStructure/Week13_1260_BOJ.cpp))
+### 문제: [1260 DFS와 BFS (실버2)](https://www.acmicpc.net/problem/1260) ([샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/Week13_1260_BOJ.cpp))
 &nbsp;&nbsp; BFS와 DFS 모두 구현하는 문제입니다. BFS와 DFS는 둘다 iterative하게 구현할 수 있고, DFS는 recursive하게도 구현할 수 있습니다. 제 기억 상으로는 자료구조에서는 recursive하게 구현하는 것을 배우므로 여러분은 굳이 iterative하게 구현하실 필요는 없습니다.
 
 <br/>
