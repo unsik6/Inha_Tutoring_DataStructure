@@ -77,7 +77,7 @@
 <br/>
 
 ### [Sequence 샘플 코드](https://github.com/unsik6/Inha_Tutoring_DataStructure/blob/main/INHA_Tutoring_DataStructure/Week05_Sequence.cpp)
-&nbsp;&nbsp;언제 무슨 이유로 만들었는지 기억이 나지 않습니다. 아마 자료구조 수업 들으면서 작성한 코드였던 걸로 기억합니다. 참고 바랍니다.  범용성을 위해서 template를 이용하여 구현되어 있습니다.
+&nbsp;&nbsp;이중연결리스트 기반 Sequence 자료구조의 일부입니다. 언제 무슨 이유로 만들었는지 기억이 나지 않습니다. 아마 자료구조 수업 들으면서 작성한 코드였던 걸로 기억합니다. 참고 바랍니다. 범용성을 위해서 template를 이용하여 구현되어 있습니다.
 
 <br/><br/>
 
